@@ -9,10 +9,7 @@ require_once 'init.php';
     <body>
         <h1 style="color:red">Evento-SENAI - Cadastro 📃 </h1>
 
-        <form action="processaCadastro.php" method="POST">
-            <label for="id">ID:</label>
-            <input type="text" name="id" id="id">
-            <br>
+        <form action="validacaoCad.php" method="POST">
 
              <label for="titulo">Titulo:</label>
             <input type="text" name="titulo" id="titulo">
@@ -49,7 +46,7 @@ require_once 'init.php';
             <input type="text" name="responsavel" id="responsavel">
             <br>
 
-            <button type="submit">Cadastrar</button>
+            <button type="submit">Validar</button>
 
         </form>
     </body>
